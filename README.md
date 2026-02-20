@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/preview.png" alt="nft-gallery preview" width="100%"></p>
+
 # Algorand NFT Gallery
 
 A single-file HTML application for browsing, exploring, and favoriting NFTs on the Algorand blockchain.
