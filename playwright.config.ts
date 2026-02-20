@@ -8,12 +8,12 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
   use: {
-    baseURL: 'http://localhost:3000',
+    baseURL: 'http://localhost:8274',
     trace: 'on-first-retry',
   },
   webServer: {
-    command: 'npx serve -l 3000 .',
-    port: 3000,
+    command: 'npx serve -l 8274 -s .',
+    port: 8274,
     reuseExistingServer: false,
   },
 });
